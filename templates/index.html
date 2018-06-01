@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+        <script src="static/js/app.js"></script>
+    </head>
+    <body>
+        <input type="radio" name="video" id="video" value="video1.mp4"> Video 1<br>
+        <input type="radio" name="video" id="video" value="video2.mp4"> Video 2<br>
+        <input type="radio" name="video" id="video" value="video3.mp4"> Video 3<br>
+    
+        <button name="play" id="play" value="play" onclick="playVideo()">Play</button><br>
+    
+        <video id="videoplayer" name="videoplayer" value="videoplayer" width="800" height="400" controls></video>
+    </body>
+</html>
